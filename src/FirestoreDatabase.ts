@@ -196,6 +196,9 @@ function getFilterOperator(operator: CrudOperators) {
         case "nin":
             return "not-in";
 
+        case "contains":
+            return ">=";
+
         case "in":
         default:
             return "in";
