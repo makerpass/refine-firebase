@@ -17,7 +17,7 @@
   "scripts": {
     "dev": "tsc --watch --preserveWatchOutput",
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepublish": "yarn build"
   },
   "dependencies": {
     "firebase": "^9.16.0",
