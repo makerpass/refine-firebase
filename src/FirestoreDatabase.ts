@@ -197,7 +197,7 @@ function getFilterOperator(operator: CrudOperators) {
             return "not-in";
 
         case "contains":
-            return ">=";
+            return "array-contains";
 
         case "in":
         default:
